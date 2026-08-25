@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(179, 129, 176);
+}
+img {
+
+
+}
+a {
+    color: rgb(255, 0, 170);
+    text-decoration: none;
+    font-size: 15px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
