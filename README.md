@@ -1,5 +1,5 @@
-# Dreamland Dungeons
+# test
 
 <ul> 
-    <li><a href="introhtml/index.html" target="blank"> Intro to HTML </a> </li>
+    <li><a href="intro_html/index.html" target="blank"> Intro to HTML </a> </li>
 <ul>
