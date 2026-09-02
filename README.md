@@ -1,5 +1,5 @@
 # Dreamfall
 
 <ul> 
-    <li><a href="intro_html/index.html" target="blank"> Intro to HTML </a> </li>
+    <li><a href="index.html" target="blank"> Intro to HTML </a> </li>
 <ul>
