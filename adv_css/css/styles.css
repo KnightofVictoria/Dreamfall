@@ -1,0 +1,165 @@
+body {
+   background-color: rgb(243, 217, 222);
+}
+img { 
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+
+}
+a {
+    color:deeppink;
+    text-decoration: none;
+}
+a:hover {
+    color: wheat;
+    text-decoration: None;
+}
+#container {
+    background-color: rgb(228, 177, 204);
+    width: 60%;
+    margin: 20px;
+    border: 4px  rgb(164, 162, 211); 
+    padding: 20px;
+    
+}
+header { 
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid rgb(164, 162, 211);
+    text-shadow: 2px 2px 5px rgb(49, 42, 43);
+}
+header h1 {
+    font-size: 50px;
+    color: rgb(242, 225, 233);
+    
+    
+}
+nav {
+    text-align: center;
+     border-bottom: 2px solid rgb(164, 162, 211);
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+nav li{ 
+    display: inline-block;
+}
+nav li a{
+   
+    display: inline-block;
+    background-color: antiquewhite;
+    color: deeppink;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    line-height: 40px;
+    font-size: 15px;
+    text-decoration: none;
+    border: solid rgb(164, 162, 211);
+     box-shadow: 2px 2px 5px rgb(29, 28, 28);
+     text-shadow: 2px 2px 5px rgb(159, 90, 162);
+
+}
+nav li a:hover {
+    color: pink ;
+    background-color: plum;
+
+}
+main h2{ 
+    text-align: center;
+    color: pink;
+}
+
+
+section, aside{
+    background-color: rgb(228, 177, 204);
+    width: 50%;
+    margin: 20px;
+    border: 4px solid rgb(164, 162, 211); 
+    padding: 20px;
+    
+}
+section{
+    width: 60%;
+}
+aside {
+    width: 40%;
+}
+section img{ 
+    border-radius:20px;
+    border: 2px solid rgb(164, 162, 211);
+    width: 80%;
+    box-shadow: 2px 2px 5px rgb(29, 28, 28);
+}
+footer{
+    padding: 40px 0;
+    text-align: center;
+
+}
+aside img{
+    border-radius:20px;
+    border: 2px solid rgb(164, 162, 211);
+    width: 80%;
+     box-shadow: 2px 2px 5px rgb(29, 28, 28);
+}
+hr {
+    border: 1px solid rgb(77, 28, 114)
+}
+iframe {
+    display: block;
+    margin: 20px auto;
+    border-radius:20px;
+    border: 2px solid rgb(164, 162, 211);
+    width: 80%;
+    box-shadow: 2px 2px 5px rgb(29, 28, 28);
+}
+/* Classes */
+  .charnames {
+            background-color: rgb(143, 104, 187);
+            color: rgb(253, 240, 255);
+            margin: 2px;
+            padding: 0px;
+            box-shadow: 2px 2px 5px black;
+            width: 60%;
+
+        }
+.multi_col {
+    display: flex;
+}
+.thicc_images {
+    border-radius:20px;
+    border: 2px solid rgb(164, 162, 211);
+    width: 40%;
+    height: 600px;
+    box-shadow: 2px 2px 5px rgb(29, 28, 28);
+}
+.dreamfall-text {
+    width: 80%;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 25px 35px;
+
+    background: #fff4fa;
+    border: 2px solid #e8b6d0;
+    border-radius: 25px;
+
+    color: #76566a;
+    font-family: Georgia, serif;
+    font-size: 17px;
+    line-height: 1.8;
+    text-align: center;
+
+    box-shadow: 0 5px 15px rgba(190, 130, 165, 0.2);
+}
+
+.dreamfall-text p {
+    margin: 15px 0;
+}
+
+.dreamfall-text p::first-letter {
+    color: #d875a7;
+    font-size: 25px;
+    font-weight: bold;
+}
