@@ -201,20 +201,51 @@ main p {
    CHARACTER CARDS
    ========================================= */
 
-.character-card {
-    margin: 20px 0;
+.character-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
 
-    padding: 18px;
+.character-card {
+    display: block;
+
+    padding: 25px;
 
     background-color: #f8eaf0;
 
-    border-left: 5px solid #c58ca7;
+    border: 2px solid #d9a9bd;
+    border-radius: 15px;
 
-    border-radius: 10px;
+    color: #5c4352;
+    text-decoration: none;
+
+    text-align: center;
+
+    transition: 0.3s;
+
+    box-sizing: border-box;
 }
 
 .character-card h3 {
     margin-top: 0;
+    color: #9b5879;
+}
+
+.character-card p {
+    margin-bottom: 0;
+    color: #6f5a65;
+}
+
+/* When you hover over a character */
+.character-card:hover {
+    transform: translateY(-5px);
+
+    background-color: #edf0e5;
+
+    border-color: #a8b69c;
+
+    box-shadow: 0 6px 15px rgba(105, 65, 90, 0.18);
 }
 
 
@@ -423,4 +454,322 @@ footer {
     }
 
 }
+/* =========================================
+   CHARACTER PROFILE
+   ========================================= */
 
+.character-header {
+    text-align: center;
+
+    margin: 10px 0 25px;
+    padding: 20px;
+
+    background-color: #f8eaf0;
+
+    border: 1px solid #dfb7ca;
+    border-radius: 15px;
+}
+
+.character-label {
+    margin: 0;
+
+    color: #a87891;
+
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.character-header h2 {
+    margin: 8px 0;
+
+    color: #9b5879;
+
+    font-size: 2.2rem;
+}
+
+.character-subtitle {
+    margin-bottom: 0;
+
+    color: #76616b;
+
+    font-style: italic;
+}
+
+
+/* =========================================
+   CHARACTER PROFILE LAYOUT
+   ========================================= */
+
+.character-profile {
+    display: grid;
+
+    grid-template-columns: 300px 1fr;
+
+    gap: 25px;
+
+    margin-bottom: 25px;
+}
+
+
+/* =========================================
+   CHARACTER IMAGE
+   ========================================= */
+
+.character-image {
+    text-align: center;
+}
+
+.image-frame {
+    padding: 12px;
+
+    background-color: #edf0e5;
+
+    border: 2px solid #a8b69c;
+
+    border-radius: 18px;
+
+    box-shadow:
+        0 5px 15px rgba(105, 65, 90, 0.12);
+}
+
+.character-image img {
+    display: block;
+
+    width: 100%;
+    height: auto;
+
+    border-radius: 12px;
+}
+
+.image-caption {
+    color: #9b5879;
+
+    font-style: italic;
+
+    margin-top: 12px;
+}
+
+
+/* =========================================
+   CHARACTER INFORMATION
+   ========================================= */
+
+.character-information {
+    padding: 25px;
+
+    background-color: #fff9fb;
+
+    border: 1px solid #e0b9ca;
+
+    border-radius: 15px;
+
+    box-sizing: border-box;
+}
+
+.character-information h2 {
+    margin-top: 0;
+
+    color: #9b5879;
+}
+
+.character-information p {
+    line-height: 1.7;
+}
+
+
+/* =========================================
+   CHARACTER FACTS
+   ========================================= */
+
+.character-facts {
+    margin-top: 25px;
+
+    padding: 18px;
+
+    background-color: #edf0e5;
+
+    border: 1px dashed #a8b69c;
+
+    border-radius: 12px;
+}
+
+.character-facts h3 {
+    margin-top: 0;
+
+    text-align: center;
+
+    color: #748b6d;
+}
+
+
+/* =========================================
+   FACT GRID
+   ========================================= */
+
+.fact-grid {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 10px;
+}
+
+.fact {
+    display: flex;
+
+    flex-direction: column;
+
+    padding: 12px;
+
+    background-color: #f9faf5;
+
+    border-radius: 8px;
+
+    text-align: center;
+}
+
+.fact strong {
+    color: #9b5879;
+
+    margin-bottom: 5px;
+}
+
+.fact span {
+    color: #5c4352;
+
+    font-size: 0.9rem;
+}
+
+
+/* =========================================
+   PROFILE BOXES
+   ========================================= */
+
+.profile-box {
+    margin-top: 20px;
+
+    padding: 18px;
+
+    background-color: #f8eaf0;
+
+    border-left: 5px solid #c58ca7;
+
+    border-radius: 10px;
+}
+
+.profile-box h3 {
+    margin-top: 0;
+
+    color: #9b5879;
+}
+
+
+/* =========================================
+   CHARACTER ASIDE
+   ========================================= */
+
+.character-aside {
+    margin-top: 10px;
+
+    background-color: #f1dfc9;
+
+    border: 1px solid #d7b49c;
+
+    border-radius: 15px;
+
+    padding: 20px;
+}
+
+.character-aside h2 {
+    margin-top: 0;
+
+    color: #9b6070;
+}
+
+.character-aside h3 {
+    color: #7d8061;
+}
+
+
+/* =========================================
+   RETURN BUTTON
+   ========================================= */
+
+.return-button {
+    text-align: center;
+
+    margin: 25px 0 10px;
+}
+
+.return-button a {
+    display: inline-block;
+
+    padding: 12px 22px;
+
+    background-color: #e8c9d8;
+
+    border: 1px solid #d4a5bb;
+
+    border-radius: 10px;
+
+    color: #8b456b;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    transition: 0.2s;
+}
+
+.return-button a:hover {
+    background-color: #a97891;
+
+    color: white;
+
+    transform: translateY(-2px);
+}
+
+
+/* =========================================
+   TABLET CHARACTER VIEW
+   ========================================= */
+
+@media (max-width: 900px) {
+
+    .character-profile {
+        grid-template-columns: 1fr;
+    }
+
+    .character-image {
+        max-width: 400px;
+
+        margin: 0 auto;
+    }
+
+}
+
+
+/* =========================================
+   MOBILE CHARACTER VIEW
+   ========================================= */
+
+@media (max-width: 600px) {
+
+    .character-header h2 {
+        font-size: 1.8rem;
+    }
+
+    .character-information {
+        padding: 18px;
+    }
+
+    .character-aside {
+        padding: 18px;
+    }
+
+    .fact-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
